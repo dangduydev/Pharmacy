@@ -24,7 +24,7 @@ namespace Phacmarcity_ADO.NET.BS_layer
         }
         public DataSet TimKiemKhachHang(string input, string key)
         {
-            return db.ExecuteQueryDataSet("select * from KhachHang Where " + input + "= " + key, CommandType.Text);
+            return db.ExecuteQueryDataSet("select * from KhachHang Where " + input + " like '%" + key+"%'", CommandType.Text);
         }
         public bool ThemKhachHang(string MaKhachHang, string TenKhachHang, string SoDienThoai, string DiaChi, ref string err)
         {

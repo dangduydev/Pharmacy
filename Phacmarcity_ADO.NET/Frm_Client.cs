@@ -79,7 +79,6 @@ namespace Phacmarcity_ADO.NET
         {
             try
             {
-                reset();
                 dgvKhachHang.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 dtKhachHang = new DataTable();
                 dtKhachHang.Clear();
@@ -102,6 +101,7 @@ namespace Phacmarcity_ADO.NET
             }
             catch
             {
+                MessageBox.Show("Không lấy được nội dung trong table KhachHang. Lỗi rồi!!!");
 
             }
         }
@@ -280,6 +280,15 @@ namespace Phacmarcity_ADO.NET
                 switch (typeSearch)
                 {
                     case nameof(Cls_Enum.OptionClient.MaKhachHang):
+                        LoadDataSearch(typeSearch, txtTimKiem.Text);
+                        break;
+                    case nameof(Cls_Enum.OptionClient.TenKhachHang):
+                        LoadDataSearch(typeSearch, txtTimKiem.Text);
+                        break;
+                    case nameof(Cls_Enum.OptionClient.SoDienThoai):
+                        LoadDataSearch(typeSearch, txtTimKiem.Text);
+                        break;
+                    case nameof(Cls_Enum.OptionClient.DiaChi):
                         LoadDataSearch(typeSearch, txtTimKiem.Text);
                         break;
                     default:
