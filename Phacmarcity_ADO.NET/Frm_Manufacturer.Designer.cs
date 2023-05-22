@@ -36,7 +36,6 @@ namespace Phacmarcity_ADO.NET
             this.dgvHangSX = new System.Windows.Forms.DataGridView();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.cbbQuocGia = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtTenHang = new System.Windows.Forms.TextBox();
@@ -57,6 +56,7 @@ namespace Phacmarcity_ADO.NET
             this.pnlMain = new System.Windows.Forms.Panel();
             this.pnlSearch = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.txtQuocGia = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHangSX)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picThuoc)).BeginInit();
@@ -131,22 +131,12 @@ namespace Phacmarcity_ADO.NET
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // cbbQuocGia
-            // 
-            this.cbbQuocGia.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbQuocGia.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbbQuocGia.FormattingEnabled = true;
-            this.cbbQuocGia.Location = new System.Drawing.Point(3, 127);
-            this.cbbQuocGia.Name = "cbbQuocGia";
-            this.cbbQuocGia.Size = new System.Drawing.Size(169, 28);
-            this.cbbQuocGia.TabIndex = 67;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label8.Location = new System.Drawing.Point(38, 386);
+            this.label8.Location = new System.Drawing.Point(40, 380);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(96, 28);
             this.label8.TabIndex = 66;
@@ -166,7 +156,7 @@ namespace Phacmarcity_ADO.NET
             // txtTenHang
             // 
             this.txtTenHang.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtTenHang.Location = new System.Drawing.Point(3, 67);
+            this.txtTenHang.Location = new System.Drawing.Point(3, 71);
             this.txtTenHang.Name = "txtTenHang";
             this.txtTenHang.Size = new System.Drawing.Size(169, 27);
             this.txtTenHang.TabIndex = 64;
@@ -331,9 +321,9 @@ namespace Phacmarcity_ADO.NET
             // 
             // pnlMain
             // 
+            this.pnlMain.Controls.Add(this.txtQuocGia);
             this.pnlMain.Controls.Add(this.txtTenHang);
             this.pnlMain.Controls.Add(this.txtMaHSX);
-            this.pnlMain.Controls.Add(this.cbbQuocGia);
             this.pnlMain.Location = new System.Drawing.Point(232, 255);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(189, 159);
@@ -359,6 +349,14 @@ namespace Phacmarcity_ADO.NET
             this.btnCancel.TabIndex = 193;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = false;
+            // 
+            // txtQuocGia
+            // 
+            this.txtQuocGia.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtQuocGia.Location = new System.Drawing.Point(4, 129);
+            this.txtQuocGia.Name = "txtQuocGia";
+            this.txtQuocGia.Size = new System.Drawing.Size(169, 27);
+            this.txtQuocGia.TabIndex = 65;
             // 
             // Frm_Manufacturer
             // 
@@ -413,7 +411,6 @@ namespace Phacmarcity_ADO.NET
         private DataGridView dgvHangSX;
         private Button btnEdit;
         private Button btnDelete;
-        private ComboBox cbbQuocGia;
         private Label label8;
         private Label label7;
         private TextBox txtTenHang;
@@ -434,5 +431,6 @@ namespace Phacmarcity_ADO.NET
         private Panel pnlMain;
         private Panel pnlSearch;
         private Button btnCancel;
+        private TextBox txtQuocGia;
     }
 }

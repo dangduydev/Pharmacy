@@ -46,7 +46,6 @@
             this.dgvPhieuXuat = new System.Windows.Forms.DataGridView();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.cbbMaThuoc = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new System.Windows.Forms.TextBox();
@@ -54,7 +53,7 @@
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMaKhachHang = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.dtpTimKiem = new System.Windows.Forms.DateTimePicker();
@@ -64,6 +63,7 @@
             this.pnlMain = new System.Windows.Forms.Panel();
             this.pnlSearch = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
+            this.txtMaThuoc = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picKhachHang)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picThuoc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuXuat)).BeginInit();
@@ -269,16 +269,6 @@
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = false;
             // 
-            // cbbMaThuoc
-            // 
-            this.cbbMaThuoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbbMaThuoc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbbMaThuoc.FormattingEnabled = true;
-            this.cbbMaThuoc.Location = new System.Drawing.Point(3, 124);
-            this.cbbMaThuoc.Name = "cbbMaThuoc";
-            this.cbbMaThuoc.Size = new System.Drawing.Size(169, 28);
-            this.cbbMaThuoc.TabIndex = 120;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -350,13 +340,13 @@
             this.label16.TabIndex = 149;
             this.label16.Text = "Phiếu Xuất";
             // 
-            // textBox1
+            // txtMaKhachHang
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(3, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(169, 27);
-            this.textBox1.TabIndex = 150;
+            this.txtMaKhachHang.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtMaKhachHang.Location = new System.Drawing.Point(3, 84);
+            this.txtMaKhachHang.Name = "txtMaKhachHang";
+            this.txtMaKhachHang.Size = new System.Drawing.Size(169, 27);
+            this.txtMaKhachHang.TabIndex = 150;
             // 
             // btnSearch
             // 
@@ -430,13 +420,13 @@
             // 
             // pnlMain
             // 
+            this.pnlMain.Controls.Add(this.txtMaThuoc);
             this.pnlMain.Controls.Add(this.txtName);
             this.pnlMain.Controls.Add(this.txtMaNhanVien);
-            this.pnlMain.Controls.Add(this.cbbMaThuoc);
             this.pnlMain.Controls.Add(this.txtSoLuong);
             this.pnlMain.Controls.Add(this.txtGia);
             this.pnlMain.Controls.Add(this.dateTimePicker1);
-            this.pnlMain.Controls.Add(this.textBox1);
+            this.pnlMain.Controls.Add(this.txtMaKhachHang);
             this.pnlMain.Location = new System.Drawing.Point(217, 220);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(179, 281);
@@ -463,6 +453,14 @@
             this.btnCancel.TabIndex = 193;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = false;
+            // 
+            // txtMaThuoc
+            // 
+            this.txtMaThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtMaThuoc.Location = new System.Drawing.Point(5, 127);
+            this.txtMaThuoc.Name = "txtMaThuoc";
+            this.txtMaThuoc.Size = new System.Drawing.Size(169, 27);
+            this.txtMaThuoc.TabIndex = 151;
             // 
             // Frm_Produce_Product
             // 
@@ -531,7 +529,6 @@
         private DataGridView dgvPhieuXuat;
         private Button btnUpdate;
         private Button btnAdd;
-        private ComboBox cbbMaThuoc;
         private Label label3;
         private Label label2;
         private TextBox txtName;
@@ -539,7 +536,7 @@
         private TextBox txtMaNhanVien;
         private Panel panel1;
         private Label label16;
-        private TextBox textBox1;
+        private TextBox txtMaKhachHang;
         private Button btnSearch;
         private Button btnSave;
         private DateTimePicker dtpTimKiem;
@@ -549,5 +546,6 @@
         private Panel pnlMain;
         private Panel pnlSearch;
         private Button btnCancel;
+        private TextBox txtMaThuoc;
     }
 }

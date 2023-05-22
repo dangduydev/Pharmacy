@@ -148,8 +148,14 @@
             // 
             // cbxBoPhan
             // 
+            this.cbxBoPhan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxBoPhan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cbxBoPhan.FormattingEnabled = true;
+            this.cbxBoPhan.Items.AddRange(new object[] {
+            "Sale",
+            "Kiểm kho",
+            "Chăm sóc khách hàng",
+            "Quản lý"});
             this.cbxBoPhan.Location = new System.Drawing.Point(13, 100);
             this.cbxBoPhan.Name = "cbxBoPhan";
             this.cbxBoPhan.Size = new System.Drawing.Size(169, 28);
@@ -196,6 +202,7 @@
             this.dgvNhanVien.RowTemplate.Height = 29;
             this.dgvNhanVien.Size = new System.Drawing.Size(747, 540);
             this.dgvNhanVien.TabIndex = 26;
+            this.dgvNhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvNhanVien_CellClick);
             // 
             // label8
             // 
@@ -230,7 +237,7 @@
             this.label16.BackColor = System.Drawing.SystemColors.Control;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label16.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label16.Location = new System.Drawing.Point(585, 125);
+            this.label16.Location = new System.Drawing.Point(841, 143);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(198, 50);
             this.label16.TabIndex = 150;
@@ -260,6 +267,7 @@
             this.btnSave.TabIndex = 157;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnEdit
             // 
@@ -272,6 +280,7 @@
             this.btnEdit.TabIndex = 156;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
@@ -284,6 +293,7 @@
             this.btnDelete.TabIndex = 155;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -296,6 +306,7 @@
             this.btnUpdate.TabIndex = 154;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -308,6 +319,7 @@
             this.btnAdd.TabIndex = 153;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dtpTimKiem
             // 
@@ -317,6 +329,7 @@
             this.dtpTimKiem.Name = "dtpTimKiem";
             this.dtpTimKiem.Size = new System.Drawing.Size(169, 27);
             this.dtpTimKiem.TabIndex = 173;
+            this.dtpTimKiem.ValueChanged += new System.EventHandler(this.dtpTimKiem_ValueChanged);
             // 
             // cbxTimKiem
             // 
@@ -343,6 +356,7 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(169, 27);
             this.txtTimKiem.TabIndex = 171;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // label19
             // 
@@ -388,6 +402,7 @@
             this.btnCancel.TabIndex = 193;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // Frm_Employees
             // 

@@ -14,11 +14,13 @@ namespace Phacmarcity_ADO.NET.Class
             switch (input)
             {
                 case "Ngày sản xuất":
-                    return "NgaySanXuat";
+                    return "NgaySX";
                 case "Hạn sử dụng":
-                    return "HanSuDung";
+                    return "NgayHH";
                 case "Ngày nhập":
                     return "NgayNhap";
+                case "Mã phiếu nhập":
+                    return "MaPN";
                 default:
                     return "";
             }
@@ -41,6 +43,14 @@ namespace Phacmarcity_ADO.NET.Class
                     return "NgaySinh";
                 case "Ngày vào làm":
                     return "NgayVaoLam";
+                case "Mã nhân viên":
+                    return "MaNhanVien";
+                case "Tên nhân viên":
+                    return "HoTen";
+                case "Số điện thoại":
+                    return "SoDienThoai";
+                case "Bộ phận":
+                    return "BoPhan";
                 
                 default:
                     return "";

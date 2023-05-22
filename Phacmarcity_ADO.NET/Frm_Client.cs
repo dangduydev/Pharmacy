@@ -39,8 +39,7 @@ namespace Phacmarcity_ADO.NET
                     txt.Clear();
                 }
             }
-            txtTimKiem.Clear();
-            cbxTimKiem.SelectedIndex = -1;
+            pnlSearch.Enabled = false;
         }
         void LoadData()
         {
@@ -269,8 +268,6 @@ namespace Phacmarcity_ADO.NET
                 MessageBox.Show("Không xóa được. Lỗi rồi!");
             }
         }
-        #endregion
-
         private void txtTimKiem_TextChanged(object sender, EventArgs e)
         {
             if (txtTimKiem.Text != null && cbxTimKiem.SelectedIndex != -1)
@@ -296,5 +293,7 @@ namespace Phacmarcity_ADO.NET
                 }
             }
         }
+        #endregion
+
     }
 }

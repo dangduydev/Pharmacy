@@ -33,9 +33,8 @@
             this.dgvPhieuNhap = new System.Windows.Forms.DataGridView();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
-            this.dtJoin = new System.Windows.Forms.DateTimePicker();
-            this.dtBirth = new System.Windows.Forms.DateTimePicker();
-            this.cbxMaThuoc = new System.Windows.Forms.ComboBox();
+            this.dtpHSD = new System.Windows.Forms.DateTimePicker();
+            this.dtpNSX = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,13 +43,12 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
-            this.cbxNhaCungCap = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.txtSoLuong = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtGia = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpNgayNhap = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
@@ -68,6 +66,8 @@
             this.picNCC = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.txtMaThuoc = new System.Windows.Forms.TextBox();
+            this.txtMaNCC = new System.Windows.Forms.TextBox();
             this.pnlSearch = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
@@ -111,6 +111,7 @@
             this.dgvPhieuNhap.RowTemplate.Height = 29;
             this.dgvPhieuNhap.Size = new System.Drawing.Size(814, 519);
             this.dgvPhieuNhap.TabIndex = 40;
+            this.dgvPhieuNhap.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuNhap_CellClick);
             // 
             // btnUpdate
             // 
@@ -123,6 +124,7 @@
             this.btnUpdate.TabIndex = 39;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -135,35 +137,26 @@
             this.btnAdd.TabIndex = 38;
             this.btnAdd.Text = "Thêm";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // dtJoin
+            // dtpHSD
             // 
-            this.dtJoin.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dtJoin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtJoin.Location = new System.Drawing.Point(16, 297);
-            this.dtJoin.Name = "dtJoin";
-            this.dtJoin.Size = new System.Drawing.Size(170, 27);
-            this.dtJoin.TabIndex = 35;
+            this.dtpHSD.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpHSD.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpHSD.Location = new System.Drawing.Point(16, 297);
+            this.dtpHSD.Name = "dtpHSD";
+            this.dtpHSD.Size = new System.Drawing.Size(170, 27);
+            this.dtpHSD.TabIndex = 35;
             // 
-            // dtBirth
+            // dtpNSX
             // 
-            this.dtBirth.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dtBirth.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtBirth.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtBirth.Location = new System.Drawing.Point(16, 257);
-            this.dtBirth.Name = "dtBirth";
-            this.dtBirth.Size = new System.Drawing.Size(170, 27);
-            this.dtBirth.TabIndex = 34;
-            // 
-            // cbxMaThuoc
-            // 
-            this.cbxMaThuoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxMaThuoc.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbxMaThuoc.FormattingEnabled = true;
-            this.cbxMaThuoc.Location = new System.Drawing.Point(16, 137);
-            this.cbxMaThuoc.Name = "cbxMaThuoc";
-            this.cbxMaThuoc.Size = new System.Drawing.Size(169, 28);
-            this.cbxMaThuoc.TabIndex = 33;
+            this.dtpNSX.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpNSX.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpNSX.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.dtpNSX.Location = new System.Drawing.Point(16, 257);
+            this.dtpNSX.Name = "dtpNSX";
+            this.dtpNSX.Size = new System.Drawing.Size(170, 27);
+            this.dtpNSX.TabIndex = 34;
             // 
             // label4
             // 
@@ -245,16 +238,6 @@
             this.txtMaNhanVien.Size = new System.Drawing.Size(169, 27);
             this.txtMaNhanVien.TabIndex = 42;
             // 
-            // cbxNhaCungCap
-            // 
-            this.cbxNhaCungCap.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxNhaCungCap.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbxNhaCungCap.FormattingEnabled = true;
-            this.cbxNhaCungCap.Location = new System.Drawing.Point(16, 97);
-            this.cbxNhaCungCap.Name = "cbxNhaCungCap";
-            this.cbxNhaCungCap.Size = new System.Drawing.Size(169, 28);
-            this.cbxNhaCungCap.TabIndex = 45;
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -305,14 +288,14 @@
             this.txtGia.TabIndex = 48;
             this.txtGia.Text = "VND";
             // 
-            // dateTimePicker1
+            // dtpNgayNhap
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(16, 337);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(169, 27);
-            this.dateTimePicker1.TabIndex = 51;
+            this.dtpNgayNhap.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.dtpNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpNgayNhap.Location = new System.Drawing.Point(16, 337);
+            this.dtpNgayNhap.Name = "dtpNgayNhap";
+            this.dtpNgayNhap.Size = new System.Drawing.Size(169, 27);
+            this.dtpNgayNhap.TabIndex = 51;
             // 
             // label10
             // 
@@ -336,6 +319,7 @@
             this.btnDelete.TabIndex = 52;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -348,6 +332,7 @@
             this.btnEdit.TabIndex = 53;
             this.btnEdit.Text = "Sửa";
             this.btnEdit.UseVisualStyleBackColor = false;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // picThuoc
             // 
@@ -431,6 +416,7 @@
             this.btnSave.TabIndex = 153;
             this.btnSave.Text = "Lưu";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label19
             // 
@@ -449,6 +435,7 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(169, 27);
             this.txtTimKiem.TabIndex = 158;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // cbxTimKiem
             // 
@@ -478,6 +465,7 @@
             this.dtpTimKiem.Name = "dtpTimKiem";
             this.dtpTimKiem.Size = new System.Drawing.Size(169, 27);
             this.dtpTimKiem.TabIndex = 160;
+            this.dtpTimKiem.ValueChanged += new System.EventHandler(this.dtpTimKiem_ValueChanged);
             // 
             // picNCC
             // 
@@ -504,19 +492,35 @@
             // 
             // pnlMain
             // 
+            this.pnlMain.Controls.Add(this.txtMaThuoc);
+            this.pnlMain.Controls.Add(this.txtMaNCC);
             this.pnlMain.Controls.Add(this.txtMaPhieuNhap);
-            this.pnlMain.Controls.Add(this.cbxMaThuoc);
-            this.pnlMain.Controls.Add(this.dtBirth);
-            this.pnlMain.Controls.Add(this.dtJoin);
+            this.pnlMain.Controls.Add(this.dtpNSX);
+            this.pnlMain.Controls.Add(this.dtpHSD);
             this.pnlMain.Controls.Add(this.txtMaNhanVien);
-            this.pnlMain.Controls.Add(this.cbxNhaCungCap);
             this.pnlMain.Controls.Add(this.txtSoLuong);
             this.pnlMain.Controls.Add(this.txtGia);
-            this.pnlMain.Controls.Add(this.dateTimePicker1);
+            this.pnlMain.Controls.Add(this.dtpNgayNhap);
             this.pnlMain.Location = new System.Drawing.Point(228, 203);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(197, 365);
             this.pnlMain.TabIndex = 161;
+            // 
+            // txtMaThuoc
+            // 
+            this.txtMaThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtMaThuoc.Location = new System.Drawing.Point(16, 141);
+            this.txtMaThuoc.Name = "txtMaThuoc";
+            this.txtMaThuoc.Size = new System.Drawing.Size(169, 27);
+            this.txtMaThuoc.TabIndex = 53;
+            // 
+            // txtMaNCC
+            // 
+            this.txtMaNCC.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtMaNCC.Location = new System.Drawing.Point(16, 101);
+            this.txtMaNCC.Name = "txtMaNCC";
+            this.txtMaNCC.Size = new System.Drawing.Size(169, 27);
+            this.txtMaNCC.TabIndex = 52;
             // 
             // pnlSearch
             // 
@@ -539,6 +543,7 @@
             this.btnCancel.TabIndex = 193;
             this.btnCancel.Text = "Hủy bỏ";
             this.btnCancel.UseVisualStyleBackColor = false;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // Frm_Enter_Product
             // 
@@ -599,9 +604,8 @@
         private DataGridView dgvPhieuNhap;
         private Button btnUpdate;
         private Button btnAdd;
-        private DateTimePicker dtJoin;
-        private DateTimePicker dtBirth;
-        private ComboBox cbxMaThuoc;
+        private DateTimePicker dtpHSD;
+        private DateTimePicker dtpNSX;
         private Label label4;
         private Label label5;
         private Label label3;
@@ -610,13 +614,12 @@
         private Panel panel2;
         private Label label7;
         private TextBox txtMaNhanVien;
-        private ComboBox cbxNhaCungCap;
         private Label label8;
         private Label label9;
         private TextBox txtSoLuong;
         private Label label6;
         private TextBox txtGia;
-        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dtpNgayNhap;
         private Label label10;
         private Button btnDelete;
         private Button btnEdit;
@@ -638,5 +641,7 @@
         private Panel pnlMain;
         private Panel pnlSearch;
         private Button btnCancel;
+        private TextBox txtMaThuoc;
+        private TextBox txtMaNCC;
     }
 }
