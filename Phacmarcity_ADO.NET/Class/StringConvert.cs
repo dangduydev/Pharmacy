@@ -4,6 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrackBar;
 
 namespace Phacmarcity_ADO.NET.Class
 {
@@ -21,6 +22,16 @@ namespace Phacmarcity_ADO.NET.Class
                     return "NgayNhap";
                 case "Mã phiếu nhập":
                     return "MaPN";
+                case "Mã nhân viên":
+                    return "MaNhanVien";
+                case "Mã thuốc":
+                    return "MaThuoc";
+                case "Nhà cung cấp":
+                    return "MaNhaCungCap";
+                case "Số lượng":
+                    return "SoLuong";
+                case "Đơn giá":
+                    return "DonGia";
                 default:
                     return "";
             }
@@ -51,7 +62,7 @@ namespace Phacmarcity_ADO.NET.Class
                     return "SoDienThoai";
                 case "Bộ phận":
                     return "BoPhan";
-                
+
                 default:
                     return "";
             }

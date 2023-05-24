@@ -448,6 +448,7 @@
             "Nhà cung cấp",
             "Mã thuốc",
             "Số lượng",
+            "Đơn giá",
             "Ngày sản xuất",
             "Hạn sử dụng",
             "Ngày nhập"});
