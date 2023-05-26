@@ -1,11 +1,14 @@
-﻿using Phacmarcity_ADO.NET.DB_layer;
-using Phacmarcity_ADO.NET.ENUM;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
+
+using Phacmarcity_ADO.NET.DB_layer;
+using Phacmarcity_ADO.NET.ENUM;
+using System.Windows.Forms;
 
 namespace Phacmarcity_ADO.NET.BS_layer
 {
@@ -28,10 +31,13 @@ namespace Phacmarcity_ADO.NET.BS_layer
             string DonGia, DateTime NgayXuat,
             ref string err)
         {
-            string sqlString = "select PhieuXuat.MaPN, PhieuXuat.MaNhanVien, PhieuXuat.MaKhachHang, PhieuXuat.NgayXuat, CTPhieuXuat.MaThuoc, CTPhieuXuat.SoLuong, CTPhieuXuat.DonGia from PhieuXuat join CTPhieuXuat on PhieuXuat.MaPX = CTPhieuXuat.MaPX";
+            string sqlString = "INSERT INTO PhieuXuat (MaPX, MaNhanVien, MaKhachHang, NgayXuat) VALUES ('" + MaPX + "', '" + MaNhanVien + "', '" + MaKhachHang + "', '" + NgayXuat.ToString("yyyy-MM-dd") + "');" +
+                       "INSERT INTO CTPhieuXuat (MaPX, MaThuoc, SoLuong, DonGia) VALUES ('" + MaPX + "', '" + MaThuoc + "', " + SoLuong + ", " + DonGia + ");";
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref err);
         }
-        public DataSet TimKiemPhieuXuat(string input, string tuKhoa)
+
+
+        public DataSet TimKiemPhieuXuat(string input,string tuKhoa)
         {
             string query = @"WITH PhieuXuatNew AS (
                         SELECT PhieuXuat.MaPx, PhieuXuat.MaNhanVien, PhieuXuat.MaKhachHang, PhieuXuat.NgayXuat, CTPhieuXuat.MaThuoc, CTPhieuXuat.SoLuong, CTPhieuXuat.DonGia

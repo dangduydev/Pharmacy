@@ -58,3 +58,36 @@ C:\Users\DangDuy\Downloads\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net
 C:\Users\DangDuy\Downloads\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\DangDuy\Downloads\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\DangDuy\Downloads\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.csproj.CopyComplete
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.csproj.AssemblyReference.cache
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Client.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Employees.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Enter_Product.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Home.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Login.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Manufacturer.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Medicine.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Produce_Product.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Frm_Supplier.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.Properties.Resources.resources
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.csproj.GenerateResource.cache
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.AssemblyInfoInputs.cache
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.AssemblyInfo.cs
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\refint\Phacmarcity_ADO.NET.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.pdb
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\Phacmarcity_ADO.NET.exe
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\Phacmarcity_ADO.NET.deps.json
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\Phacmarcity_ADO.NET.runtimeconfig.json
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\Phacmarcity_ADO.NET.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\Phacmarcity_ADO.NET.pdb
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.csproj.CopyComplete
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\Phacmarcity_ADO.NET.genruntimeconfig.cache
+C:\Users\Administrator\OneDrive - hcmute.edu.vn\Desktop\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\Phacmarcity_ADO.NET\obj\Debug\net6.0-windows\ref\Phacmarcity_ADO.NET.dll

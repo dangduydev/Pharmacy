@@ -38,10 +38,27 @@ namespace Phacmarcity_ADO.NET.Class
         }
         public static string ConvertToEnumPhieuXuat(string input)
         {
+            /*            Mã phiếu xuất
+                        Mã nhân viên
+                        Mã khách hàng
+                        Mã thuốc
+                        Số lượng
+                        Ngày xuất*/
             switch (input)
             {
+                case "Mã phiếu xuất":
+                    return "MaPX";
+                case "Mã nhân viên":
+                    return "MaNhanVien";
+                case "Mã khách hàng":
+                    return "MaKhachHang";
+                case "Mã thuốc":
+                    return "MaThuoc";
+                case "Số lượng":
+                    return "SoLuong";
                 case "Ngày xuất":
                     return "NgayXuat";
+
                 default:
                     return "";
             }

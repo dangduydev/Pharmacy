@@ -28,486 +28,486 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label15 = new System.Windows.Forms.Label();
-            this.picKhachHang = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.picThuoc = new System.Windows.Forms.PictureBox();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtGia = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.dgvPhieuXuat = new System.Windows.Forms.DataGridView();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtMaNhanVien = new System.Windows.Forms.TextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txtMaKhachHang = new System.Windows.Forms.TextBox();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.dtpTimKiem = new System.Windows.Forms.DateTimePicker();
-            this.cbxTimKiem = new System.Windows.Forms.ComboBox();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.pnlMain = new System.Windows.Forms.Panel();
-            this.pnlSearch = new System.Windows.Forms.Panel();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.txtMaThuoc = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picKhachHang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picThuoc)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuXuat)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.pnlMain.SuspendLayout();
-            this.pnlSearch.SuspendLayout();
-            this.SuspendLayout();
+            label15 = new Label();
+            picKhachHang = new PictureBox();
+            label14 = new Label();
+            picThuoc = new PictureBox();
+            btnEdit = new Button();
+            btnDelete = new Button();
+            dateTimePicker1 = new DateTimePicker();
+            label10 = new Label();
+            label6 = new Label();
+            txtGia = new TextBox();
+            label9 = new Label();
+            txtSoLuong = new TextBox();
+            label8 = new Label();
+            label7 = new Label();
+            panel2 = new Panel();
+            dgvPhieuXuat = new DataGridView();
+            btnUpdate = new Button();
+            btnAdd = new Button();
+            label3 = new Label();
+            label2 = new Label();
+            txtMaPX = new TextBox();
+            label1 = new Label();
+            txtMaNhanVien = new TextBox();
+            panel1 = new Panel();
+            label16 = new Label();
+            txtMaKhachHang = new TextBox();
+            btnSearch = new Button();
+            btnSave = new Button();
+            dtpTimKiem = new DateTimePicker();
+            cbxTimKiem = new ComboBox();
+            txtTimKiem = new TextBox();
+            label19 = new Label();
+            pnlMain = new Panel();
+            txtMaThuoc = new TextBox();
+            pnlSearch = new Panel();
+            btnCancel = new Button();
+            ((System.ComponentModel.ISupportInitialize)picKhachHang).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picThuoc).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPhieuXuat).BeginInit();
+            panel1.SuspendLayout();
+            pnlMain.SuspendLayout();
+            pnlSearch.SuspendLayout();
+            SuspendLayout();
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label15.Location = new System.Drawing.Point(350, 135);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(123, 28);
-            this.label15.TabIndex = 148;
-            this.label15.Text = "Khách hàng";
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.DarkCyan;
+            label15.Location = new Point(350, 135);
+            label15.Name = "label15";
+            label15.Size = new Size(123, 28);
+            label15.TabIndex = 148;
+            label15.Text = "Khách hàng";
             // 
             // picKhachHang
             // 
-            this.picKhachHang.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picKhachHang.Image = global::Phacmarcity_ADO.NET.Properties.Resources.employee__1_;
-            this.picKhachHang.Location = new System.Drawing.Point(260, 135);
-            this.picKhachHang.Name = "picKhachHang";
-            this.picKhachHang.Size = new System.Drawing.Size(63, 43);
-            this.picKhachHang.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picKhachHang.TabIndex = 147;
-            this.picKhachHang.TabStop = false;
-            this.picKhachHang.Click += new System.EventHandler(this.picKhachHang_Click);
+            picKhachHang.BorderStyle = BorderStyle.FixedSingle;
+            picKhachHang.Image = Properties.Resources.employee__1_;
+            picKhachHang.Location = new Point(260, 135);
+            picKhachHang.Name = "picKhachHang";
+            picKhachHang.Size = new Size(63, 43);
+            picKhachHang.SizeMode = PictureBoxSizeMode.Zoom;
+            picKhachHang.TabIndex = 147;
+            picKhachHang.TabStop = false;
+            picKhachHang.Click += picKhachHang_Click;
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label14.Location = new System.Drawing.Point(141, 135);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 28);
-            this.label14.TabIndex = 146;
-            this.label14.Text = "Thuốc";
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.DarkCyan;
+            label14.Location = new Point(141, 135);
+            label14.Name = "label14";
+            label14.Size = new Size(70, 28);
+            label14.TabIndex = 146;
+            label14.Text = "Thuốc";
             // 
             // picThuoc
             // 
-            this.picThuoc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.picThuoc.Image = global::Phacmarcity_ADO.NET.Properties.Resources.medicine;
-            this.picThuoc.Location = new System.Drawing.Point(61, 135);
-            this.picThuoc.Name = "picThuoc";
-            this.picThuoc.Size = new System.Drawing.Size(63, 43);
-            this.picThuoc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picThuoc.TabIndex = 142;
-            this.picThuoc.TabStop = false;
-            this.picThuoc.Click += new System.EventHandler(this.picThuoc_Click);
+            picThuoc.BorderStyle = BorderStyle.FixedSingle;
+            picThuoc.Image = Properties.Resources.medicine;
+            picThuoc.Location = new Point(61, 135);
+            picThuoc.Name = "picThuoc";
+            picThuoc.Size = new Size(63, 43);
+            picThuoc.SizeMode = PictureBoxSizeMode.Zoom;
+            picThuoc.TabIndex = 142;
+            picThuoc.TabStop = false;
+            picThuoc.Click += picThuoc_Click;
             // 
             // btnEdit
             // 
-            this.btnEdit.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEdit.ForeColor = System.Drawing.Color.White;
-            this.btnEdit.Location = new System.Drawing.Point(160, 687);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(113, 51);
-            this.btnEdit.TabIndex = 138;
-            this.btnEdit.Text = "Sửa";
-            this.btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.BackColor = Color.DarkCyan;
+            btnEdit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnEdit.ForeColor = Color.White;
+            btnEdit.Location = new Point(160, 687);
+            btnEdit.Name = "btnEdit";
+            btnEdit.Size = new Size(113, 51);
+            btnEdit.TabIndex = 138;
+            btnEdit.Text = "Sửa";
+            btnEdit.UseVisualStyleBackColor = false;
+            btnEdit.Click += btnEdit_Click;
             // 
             // btnDelete
             // 
-            this.btnDelete.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(28, 687);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(113, 51);
-            this.btnDelete.TabIndex = 137;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.BackColor = Color.DarkCyan;
+            btnDelete.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnDelete.ForeColor = Color.White;
+            btnDelete.Location = new Point(28, 687);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(113, 51);
+            btnDelete.TabIndex = 137;
+            btnDelete.Text = "Xóa";
+            btnDelete.UseVisualStyleBackColor = false;
+            btnDelete.Click += btnDelete_Click;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateTimePicker1.Location = new System.Drawing.Point(3, 244);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(168, 27);
-            this.dateTimePicker1.TabIndex = 136;
+            dateTimePicker1.CalendarFont = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.ImeMode = ImeMode.NoControl;
+            dateTimePicker1.Location = new Point(3, 244);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(168, 27);
+            dateTimePicker1.TabIndex = 136;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label10.Location = new System.Drawing.Point(25, 460);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(110, 28);
-            this.label10.TabIndex = 135;
-            this.label10.Text = "Ngày xuất";
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.DarkCyan;
+            label10.Location = new Point(25, 460);
+            label10.Name = "label10";
+            label10.Size = new Size(110, 28);
+            label10.TabIndex = 135;
+            label10.Text = "Ngày xuất";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label6.Location = new System.Drawing.Point(25, 420);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 28);
-            this.label6.TabIndex = 134;
-            this.label6.Text = "Đơn giá";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.DarkCyan;
+            label6.Location = new Point(25, 420);
+            label6.Name = "label6";
+            label6.Size = new Size(87, 28);
+            label6.TabIndex = 134;
+            label6.Text = "Đơn giá";
             // 
             // txtGia
             // 
-            this.txtGia.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtGia.Location = new System.Drawing.Point(3, 204);
-            this.txtGia.Name = "txtGia";
-            this.txtGia.Size = new System.Drawing.Size(169, 27);
-            this.txtGia.TabIndex = 133;
-            this.txtGia.Text = "VND";
+            txtGia.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtGia.Location = new Point(3, 204);
+            txtGia.Name = "txtGia";
+            txtGia.Size = new Size(169, 27);
+            txtGia.TabIndex = 133;
+            txtGia.Text = "VND";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label9.Location = new System.Drawing.Point(25, 380);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 28);
-            this.label9.TabIndex = 132;
-            this.label9.Text = "Số lượng";
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.ForeColor = Color.DarkCyan;
+            label9.Location = new Point(25, 380);
+            label9.Name = "label9";
+            label9.Size = new Size(97, 28);
+            label9.TabIndex = 132;
+            label9.Text = "Số lượng";
             // 
             // txtSoLuong
             // 
-            this.txtSoLuong.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtSoLuong.Location = new System.Drawing.Point(3, 164);
-            this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(169, 27);
-            this.txtSoLuong.TabIndex = 131;
+            txtSoLuong.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtSoLuong.Location = new Point(3, 164);
+            txtSoLuong.Name = "txtSoLuong";
+            txtSoLuong.Size = new Size(169, 27);
+            txtSoLuong.TabIndex = 131;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label8.Location = new System.Drawing.Point(25, 300);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(157, 28);
-            this.label8.TabIndex = 129;
-            this.label8.Text = "Mã khách hàng";
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.ForeColor = Color.DarkCyan;
+            label8.Location = new Point(25, 300);
+            label8.Name = "label8";
+            label8.Size = new Size(157, 28);
+            label8.TabIndex = 129;
+            label8.Text = "Mã khách hàng";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label7.Location = new System.Drawing.Point(25, 260);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(141, 28);
-            this.label7.TabIndex = 128;
-            this.label7.Text = "Mã nhân viên";
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.ForeColor = Color.DarkCyan;
+            label7.Location = new Point(25, 260);
+            label7.Name = "label7";
+            label7.Size = new Size(141, 28);
+            label7.TabIndex = 128;
+            label7.Text = "Mã nhân viên";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 796);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1312, 27);
-            this.panel2.TabIndex = 126;
+            panel2.BackColor = Color.DarkCyan;
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(0, 796);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1312, 27);
+            panel2.TabIndex = 126;
             // 
             // dgvPhieuXuat
             // 
-            this.dgvPhieuXuat.BackgroundColor = System.Drawing.SystemColors.ControlLight;
-            this.dgvPhieuXuat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPhieuXuat.GridColor = System.Drawing.Color.White;
-            this.dgvPhieuXuat.Location = new System.Drawing.Point(465, 223);
-            this.dgvPhieuXuat.Name = "dgvPhieuXuat";
-            this.dgvPhieuXuat.RowHeadersWidth = 51;
-            this.dgvPhieuXuat.RowTemplate.Height = 29;
-            this.dgvPhieuXuat.Size = new System.Drawing.Size(800, 541);
-            this.dgvPhieuXuat.TabIndex = 125;
+            dgvPhieuXuat.BackgroundColor = SystemColors.ControlLight;
+            dgvPhieuXuat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPhieuXuat.GridColor = Color.White;
+            dgvPhieuXuat.Location = new Point(465, 223);
+            dgvPhieuXuat.Name = "dgvPhieuXuat";
+            dgvPhieuXuat.RowHeadersWidth = 51;
+            dgvPhieuXuat.RowTemplate.Height = 29;
+            dgvPhieuXuat.Size = new Size(800, 541);
+            dgvPhieuXuat.TabIndex = 125;
+            dgvPhieuXuat.CellClick += dgvPhieuXuat_CellClick;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnUpdate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(160, 622);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(113, 51);
-            this.btnUpdate.TabIndex = 124;
-            this.btnUpdate.Text = "Cập nhật";
-            this.btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.BackColor = Color.DarkCyan;
+            btnUpdate.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnUpdate.ForeColor = Color.White;
+            btnUpdate.Location = new Point(160, 622);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(113, 51);
+            btnUpdate.TabIndex = 124;
+            btnUpdate.Text = "Cập nhật";
+            btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnAdd
             // 
-            this.btnAdd.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(27, 622);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(113, 51);
-            this.btnAdd.TabIndex = 123;
-            this.btnAdd.Text = "Thêm";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.BackColor = Color.DarkCyan;
+            btnAdd.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAdd.ForeColor = Color.White;
+            btnAdd.Location = new Point(27, 622);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(113, 51);
+            btnAdd.TabIndex = 123;
+            btnAdd.Text = "Thêm";
+            btnAdd.UseVisualStyleBackColor = false;
+            btnAdd.Click += btnAdd_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label3.Location = new System.Drawing.Point(25, 340);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 28);
-            this.label3.TabIndex = 117;
-            this.label3.Text = "Mã thuốc";
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.DarkCyan;
+            label3.Location = new Point(25, 340);
+            label3.Name = "label3";
+            label3.Size = new Size(102, 28);
+            label3.TabIndex = 117;
+            label3.Text = "Mã thuốc";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label2.Location = new System.Drawing.Point(25, 220);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 28);
-            this.label2.TabIndex = 116;
-            this.label2.Text = "Mã phiếu xuất";
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.DarkCyan;
+            label2.Location = new Point(25, 220);
+            label2.Name = "label2";
+            label2.Size = new Size(149, 28);
+            label2.TabIndex = 116;
+            label2.Text = "Mã phiếu xuất";
             // 
-            // txtName
+            // txtMaPX
             // 
-            this.txtName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtName.Location = new System.Drawing.Point(3, 4);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(169, 27);
-            this.txtName.TabIndex = 115;
+            txtMaPX.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtMaPX.Location = new Point(3, 4);
+            txtMaPX.Name = "txtMaPX";
+            txtMaPX.Size = new Size(169, 27);
+            txtMaPX.TabIndex = 115;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(430, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(400, 31);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pharmacy Managerment Version 1.0";
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.ControlLightLight;
+            label1.Location = new Point(430, 35);
+            label1.Name = "label1";
+            label1.Size = new Size(400, 31);
+            label1.TabIndex = 0;
+            label1.Text = "Pharmacy Managerment Version 1.0";
             // 
             // txtMaNhanVien
             // 
-            this.txtMaNhanVien.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtMaNhanVien.Location = new System.Drawing.Point(3, 44);
-            this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(169, 27);
-            this.txtMaNhanVien.TabIndex = 127;
+            txtMaNhanVien.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtMaNhanVien.Location = new Point(3, 44);
+            txtMaNhanVien.Name = "txtMaNhanVien";
+            txtMaNhanVien.Size = new Size(169, 27);
+            txtMaNhanVien.TabIndex = 127;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkCyan;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1312, 109);
-            this.panel1.TabIndex = 114;
+            panel1.BackColor = Color.DarkCyan;
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1312, 109);
+            panel1.TabIndex = 114;
             // 
             // label16
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.SystemColors.Control;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label16.Location = new System.Drawing.Point(775, 170);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(210, 50);
-            this.label16.TabIndex = 149;
-            this.label16.Text = "Phiếu Xuất";
+            label16.AutoSize = true;
+            label16.BackColor = SystemColors.Control;
+            label16.Font = new Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.ForeColor = Color.DarkCyan;
+            label16.Location = new Point(775, 170);
+            label16.Name = "label16";
+            label16.Size = new Size(210, 50);
+            label16.TabIndex = 149;
+            label16.Text = "Phiếu Xuất";
             // 
             // txtMaKhachHang
             // 
-            this.txtMaKhachHang.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtMaKhachHang.Location = new System.Drawing.Point(3, 84);
-            this.txtMaKhachHang.Name = "txtMaKhachHang";
-            this.txtMaKhachHang.Size = new System.Drawing.Size(169, 27);
-            this.txtMaKhachHang.TabIndex = 150;
+            txtMaKhachHang.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtMaKhachHang.Location = new Point(3, 84);
+            txtMaKhachHang.Name = "txtMaKhachHang";
+            txtMaKhachHang.Size = new Size(169, 27);
+            txtMaKhachHang.TabIndex = 150;
             // 
             // btnSearch
             // 
-            this.btnSearch.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnSearch.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(28, 517);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(113, 51);
-            this.btnSearch.TabIndex = 152;
-            this.btnSearch.Text = "Tìm kiếm";
-            this.btnSearch.UseVisualStyleBackColor = false;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            btnSearch.BackColor = Color.DarkCyan;
+            btnSearch.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSearch.ForeColor = Color.White;
+            btnSearch.Location = new Point(28, 517);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(113, 51);
+            btnSearch.TabIndex = 152;
+            btnSearch.Text = "Tìm kiếm";
+            btnSearch.UseVisualStyleBackColor = false;
+            btnSearch.Click += btnSearch_Click;
             // 
             // btnSave
             // 
-            this.btnSave.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.ForeColor = System.Drawing.Color.White;
-            this.btnSave.Location = new System.Drawing.Point(291, 622);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(113, 51);
-            this.btnSave.TabIndex = 151;
-            this.btnSave.Text = "Lưu";
-            this.btnSave.UseVisualStyleBackColor = false;
+            btnSave.BackColor = Color.DarkCyan;
+            btnSave.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnSave.ForeColor = Color.White;
+            btnSave.Location = new Point(291, 622);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(113, 51);
+            btnSave.TabIndex = 151;
+            btnSave.Text = "Lưu";
+            btnSave.UseVisualStyleBackColor = false;
+            btnSave.Click += btnSave_Click;
             // 
             // dtpTimKiem
             // 
-            this.dtpTimKiem.CalendarFont = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.dtpTimKiem.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpTimKiem.Location = new System.Drawing.Point(2, 51);
-            this.dtpTimKiem.Name = "dtpTimKiem";
-            this.dtpTimKiem.Size = new System.Drawing.Size(169, 27);
-            this.dtpTimKiem.TabIndex = 165;
+            dtpTimKiem.CalendarFont = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpTimKiem.Format = DateTimePickerFormat.Short;
+            dtpTimKiem.Location = new Point(2, 51);
+            dtpTimKiem.Name = "dtpTimKiem";
+            dtpTimKiem.Size = new Size(169, 27);
+            dtpTimKiem.TabIndex = 165;
             // 
             // cbxTimKiem
             // 
-            this.cbxTimKiem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxTimKiem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cbxTimKiem.FormattingEnabled = true;
-            this.cbxTimKiem.Items.AddRange(new object[] {
-            "Mã phiếu xuất",
-            "Mã nhân viên",
-            "Mã khách hàng",
-            "Mã thuốc",
-            "Số lượng",
-            "Ngày xuất"});
-            this.cbxTimKiem.Location = new System.Drawing.Point(3, 3);
-            this.cbxTimKiem.Name = "cbxTimKiem";
-            this.cbxTimKiem.Size = new System.Drawing.Size(169, 28);
-            this.cbxTimKiem.TabIndex = 164;
-            this.cbxTimKiem.SelectedIndexChanged += new System.EventHandler(this.cbxTimKiem_SelectedIndexChanged);
+            cbxTimKiem.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbxTimKiem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            cbxTimKiem.FormattingEnabled = true;
+            cbxTimKiem.Items.AddRange(new object[] { "Mã phiếu xuất", "Mã nhân viên", "Mã khách hàng", "Mã thuốc", "Số lượng", "Ngày xuất" });
+            cbxTimKiem.Location = new Point(3, 3);
+            cbxTimKiem.Name = "cbxTimKiem";
+            cbxTimKiem.Size = new Size(169, 28);
+            cbxTimKiem.TabIndex = 164;
+            cbxTimKiem.SelectedIndexChanged += cbxTimKiem_SelectedIndexChanged;
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtTimKiem.Location = new System.Drawing.Point(3, 51);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(169, 27);
-            this.txtTimKiem.TabIndex = 163;
+            txtTimKiem.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtTimKiem.Location = new Point(3, 51);
+            txtTimKiem.Name = "txtTimKiem";
+            txtTimKiem.Size = new Size(169, 27);
+            txtTimKiem.TabIndex = 163;
+            txtTimKiem.TextChanged += txtTimKiem_TextChanged;
             // 
             // label19
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label19.Location = new System.Drawing.Point(129, 544);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(0, 28);
-            this.label19.TabIndex = 162;
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label19.ForeColor = Color.DarkCyan;
+            label19.Location = new Point(129, 544);
+            label19.Name = "label19";
+            label19.Size = new Size(0, 28);
+            label19.TabIndex = 162;
             // 
             // pnlMain
             // 
-            this.pnlMain.Controls.Add(this.txtMaThuoc);
-            this.pnlMain.Controls.Add(this.txtName);
-            this.pnlMain.Controls.Add(this.txtMaNhanVien);
-            this.pnlMain.Controls.Add(this.txtSoLuong);
-            this.pnlMain.Controls.Add(this.txtGia);
-            this.pnlMain.Controls.Add(this.dateTimePicker1);
-            this.pnlMain.Controls.Add(this.txtMaKhachHang);
-            this.pnlMain.Location = new System.Drawing.Point(217, 220);
-            this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(179, 281);
-            this.pnlMain.TabIndex = 166;
-            // 
-            // pnlSearch
-            // 
-            this.pnlSearch.Controls.Add(this.cbxTimKiem);
-            this.pnlSearch.Controls.Add(this.txtTimKiem);
-            this.pnlSearch.Controls.Add(this.dtpTimKiem);
-            this.pnlSearch.Location = new System.Drawing.Point(217, 500);
-            this.pnlSearch.Name = "pnlSearch";
-            this.pnlSearch.Size = new System.Drawing.Size(179, 84);
-            this.pnlSearch.TabIndex = 167;
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackColor = System.Drawing.Color.DarkCyan;
-            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCancel.ForeColor = System.Drawing.Color.White;
-            this.btnCancel.Location = new System.Drawing.Point(291, 687);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(113, 51);
-            this.btnCancel.TabIndex = 193;
-            this.btnCancel.Text = "Hủy bỏ";
-            this.btnCancel.UseVisualStyleBackColor = false;
+            pnlMain.Controls.Add(txtMaThuoc);
+            pnlMain.Controls.Add(txtMaPX);
+            pnlMain.Controls.Add(txtMaNhanVien);
+            pnlMain.Controls.Add(txtSoLuong);
+            pnlMain.Controls.Add(txtGia);
+            pnlMain.Controls.Add(dateTimePicker1);
+            pnlMain.Controls.Add(txtMaKhachHang);
+            pnlMain.Location = new Point(217, 220);
+            pnlMain.Name = "pnlMain";
+            pnlMain.Size = new Size(179, 281);
+            pnlMain.TabIndex = 166;
             // 
             // txtMaThuoc
             // 
-            this.txtMaThuoc.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtMaThuoc.Location = new System.Drawing.Point(5, 127);
-            this.txtMaThuoc.Name = "txtMaThuoc";
-            this.txtMaThuoc.Size = new System.Drawing.Size(169, 27);
-            this.txtMaThuoc.TabIndex = 151;
+            txtMaThuoc.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            txtMaThuoc.Location = new Point(5, 127);
+            txtMaThuoc.Name = "txtMaThuoc";
+            txtMaThuoc.Size = new Size(169, 27);
+            txtMaThuoc.TabIndex = 151;
+            // 
+            // pnlSearch
+            // 
+            pnlSearch.Controls.Add(cbxTimKiem);
+            pnlSearch.Controls.Add(txtTimKiem);
+            pnlSearch.Controls.Add(dtpTimKiem);
+            pnlSearch.Location = new Point(217, 500);
+            pnlSearch.Name = "pnlSearch";
+            pnlSearch.Size = new Size(179, 84);
+            pnlSearch.TabIndex = 167;
+            // 
+            // btnCancel
+            // 
+            btnCancel.BackColor = Color.DarkCyan;
+            btnCancel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCancel.ForeColor = Color.White;
+            btnCancel.Location = new Point(291, 687);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(113, 51);
+            btnCancel.TabIndex = 193;
+            btnCancel.Text = "Hủy bỏ";
+            btnCancel.UseVisualStyleBackColor = false;
             // 
             // Frm_Produce_Product
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 823);
-            this.Controls.Add(this.btnCancel);
-            this.Controls.Add(this.pnlSearch);
-            this.Controls.Add(this.pnlMain);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.picKhachHang);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.picThuoc);
-            this.Controls.Add(this.btnEdit);
-            this.Controls.Add(this.btnDelete);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.dgvPhieuXuat);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
-            this.Name = "Frm_Produce_Product";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Produce_Product";
-            this.Load += new System.EventHandler(this.Frm_Produce_Product_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picKhachHang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picThuoc)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuXuat)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.pnlMain.ResumeLayout(false);
-            this.pnlMain.PerformLayout();
-            this.pnlSearch.ResumeLayout(false);
-            this.pnlSearch.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1312, 823);
+            Controls.Add(btnCancel);
+            Controls.Add(pnlSearch);
+            Controls.Add(pnlMain);
+            Controls.Add(label19);
+            Controls.Add(btnSearch);
+            Controls.Add(btnSave);
+            Controls.Add(label16);
+            Controls.Add(label15);
+            Controls.Add(picKhachHang);
+            Controls.Add(label14);
+            Controls.Add(picThuoc);
+            Controls.Add(btnEdit);
+            Controls.Add(btnDelete);
+            Controls.Add(label10);
+            Controls.Add(label6);
+            Controls.Add(label9);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(panel2);
+            Controls.Add(dgvPhieuXuat);
+            Controls.Add(btnUpdate);
+            Controls.Add(btnAdd);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(panel1);
+            Name = "Frm_Produce_Product";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Produce_Product";
+            Load += Frm_Produce_Product_Load;
+            ((System.ComponentModel.ISupportInitialize)picKhachHang).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picThuoc).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPhieuXuat).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            pnlMain.ResumeLayout(false);
+            pnlMain.PerformLayout();
+            pnlSearch.ResumeLayout(false);
+            pnlSearch.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -531,7 +531,7 @@
         private Button btnAdd;
         private Label label3;
         private Label label2;
-        private TextBox txtName;
+        private TextBox txtMaPX;
         private Label label1;
         private TextBox txtMaNhanVien;
         private Panel panel1;
